@@ -31,4 +31,10 @@ Two different neural network models were used: Convolutional Neural Network (CNN
 
 The table above summarizes the performance metrics for the CNN and RNN models on the training and validation sets. The metrics include accuracy, loss, precision, recall, and F1 score.
 
-Feel free to explore the code and results in the respective directories for more details on the implementation and outcomes.
+The Charts below show the performance of CNN and RNN through each epochs
+
+![CNN](./CNN_Plot.png)
+_Performance of Convolutional Neural Network_
+***
+![RNN](./RNN_Plot.png)
+_Performance of Recurrent Neural Network (LSTM)_
