@@ -38,3 +38,5 @@ _Performance of Convolutional Neural Network_
 ***
 ![RNN](./RNN_Plot.png)
 _Performance of Recurrent Neural Network (LSTM)_
+
+The processed dataset files, CSVs, pickles, and models can be found in the [Google Drive.](https://drive.google.com/drive/folders/15Ax5UUiYkO_dyQgqVAyU1a4xdqNcX64L?usp=sharing)
