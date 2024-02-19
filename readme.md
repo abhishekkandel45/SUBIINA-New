@@ -1,4 +1,4 @@
-# Speech Emotion Classifier Comparison
+# Speech Emotion Classifier
 
 This repository contains the code and results for a machine learning model comparison for speech emotion classification using the RAVDESS and TESS datasets. The goal was to classify seven different emotions: angry, disgust, fearful, happy, neutral, sad, and surprised.
 
