@@ -17,7 +17,7 @@ The preprocessing steps for the audio data involved digital signal processing te
    - Introduction of the Mel scale to account for human perception of frequency differences.
    - Mel frequency cepstral coefficients (MFCCs) obtained through the discrete cosine transform (DCT) were used for feature extraction.
 
-
+***
 ## Neural Network Models
 
 Two different neural network models were used: Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) with Long Short-Term Memory (LSTM).
@@ -31,12 +31,22 @@ Two different neural network models were used: Convolutional Neural Network (CNN
 
 The table above summarizes the performance metrics for the CNN and RNN models on the training and validation sets. The metrics include accuracy, loss, precision, recall, and F1 score.
 
-The Charts below show the performance of CNN and RNN through each epochs
+The Charts below show the performance of CNN and RNN through each epoch
 
 ![CNN](./CNN_Plot.png)
 _Performance of Convolutional Neural Network_
-***
 ![RNN](./RNN_Plot.png)
 _Performance of Recurrent Neural Network (LSTM)_
 
+### Model Visualization
+
+To visualize the structures of the Convolutional Neural Networks and the Recurrent Neural Networks, the models created using Tensorflow and Keras were converted to PyTorch model manually and then visualize using torchviz library as the visualization libraries of Tensorflow and Keras were mostly out of date. you can find the conversion and visualization codes in 
+```
+NNVisualization.ipynb
+```
+The charts below show the structures of the CNN and RNN used:
+![CNNstructure](./convnet_visualization.png)
+_Visualization of Convolutional Neural Networks_
+![RNNstructure](./RecurrentModelVisualization.png)
+_Visualization of Rectified Neural Networks_
 The processed dataset files, CSVs, pickles, and models can be found in the [Google Drive.](https://drive.google.com/drive/folders/15Ax5UUiYkO_dyQgqVAyU1a4xdqNcX64L?usp=sharing)
